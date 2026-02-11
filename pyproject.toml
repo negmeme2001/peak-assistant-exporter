@@ -1,0 +1,11 @@
+[project]
+name = "peak-assistant-exporter"
+version = "0.1.0"
+description = "Peak Assistant Exporter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "prometheus-client>=0.24.1",
+    "pymongo>=4.16.0",
+]
